@@ -3,6 +3,7 @@ using namespace std;
 int main(){
 system ("cls");
 cout <<"\t==========>>>Welcome to Calculator<<<=========="<<endl;
+start:
 double num1,num2;
 int Option;
 double Answer;
@@ -39,8 +40,8 @@ default:
     
     break;
 }
-    cout <<"\tResult : "<< Answer << endl;
+    cout <<"\tResult : "<< Answer << endl<<endl;
 
-
+goto start;
     return 0;
 }
