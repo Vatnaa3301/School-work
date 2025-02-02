@@ -3,9 +3,9 @@ using namespace std;
 int main(){
 system ("cls");
 cout <<"\t==========>>>Welcome to Calculator<<<=========="<<endl;
-int num1,num2;
+double num1,num2;
 int Option;
-int Answer;
+double Answer;
 cout <<"\tEnter the First Number : ";
 cin >>num1;
 cout <<"\tEnter the Second Number : ";
@@ -39,7 +39,7 @@ default:
     
     break;
 }
-    cout <<"\tResult : "<<Answer;
+    cout <<"\tResult : "<< Answer << endl;
 
 
     return 0;
