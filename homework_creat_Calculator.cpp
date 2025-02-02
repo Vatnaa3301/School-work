@@ -1,9 +1,9 @@
 #include <iostream>
 using namespace std;
 int main(){
+start:
 system ("cls");
 cout <<"\t==========>>>Welcome to Calculator<<<=========="<<endl;
-start:
 double num1,num2;
 int Option;
 double Answer;
@@ -40,8 +40,10 @@ default:
     
     break;
 }
-    cout <<"\tResult : "<< Answer << endl<<endl;
 
+    cout <<"\tResult : "<< Answer << endl<<endl;
+    cin.ignore();
+    cin.get();
 goto start;
     return 0;
 }
